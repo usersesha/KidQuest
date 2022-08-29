@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:id="@+id/codemess"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="На почту отправлен код сброса пароля. Пожалуйста, введите его"
+        android:textColor="@color/appName"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/fcode"
+        app:layout_constraintStart_toStartOf="@+id/fcode"
+        app:layout_constraintTop_toBottomOf="@+id/signnum" />
+    <TextView
+        android:id="@+id/insert_mail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:text="Напишите почту, на которую зарегестрирован аккаунт"
+        android:textColor="@color/appName"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/fcode"
+        app:layout_constraintStart_toStartOf="@+id/fcode"
+        app:layout_constraintTop_toBottomOf="@+id/signnum" />
+
+    <EditText
+        android:id="@+id/fcode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edtxt_log"
+        android:hint="Код"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/blockItem"
+        android:textColorHint="@color/blockItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codemess"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/fPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edtxt_log"
+        android:hint="Новый пароль"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/blockItem"
+        android:textColorHint="@color/blockItem"
+        app:flow_firstVerticalBias="0"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fcode"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:id="@+id/signnum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edtxt_log"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/blockItem"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColorHint="@color/blockItem"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:layout_constraintWidth_percent=".8" />
+
+    <EditText
+        android:textColor="@color/blockItem"
+        android:id="@+id/signpass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/blockItem"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:background="@drawable/edtxt_log"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:flow_firstVerticalBias="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signnum"
+        app:layout_constraintVertical_bias="0.08"
+        app:layout_constraintWidth_percent=".8"
+        />
+
+    <Button
+        android:id="@+id/backToLog"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/edtxt_log"
+        android:onClick="Back_To_Log_Click"
+        android:paddingRight="5dp"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:textColor="@color/appName"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/signnum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent=".8" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_log"
+        android:onClick="enterClick"
+        android:text="Войти"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signpass"
+        app:layout_constraintVertical_bias="0.778"
+        app:layout_constraintWidth_percent=".8" />
+
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:text="Я не помню пароль"
+        android:textColor="@color/buttons"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/signpass"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toStartOf="@+id/signpass"
+        android:onClick="ForgetPass"
+        app:layout_constraintTop_toBottomOf="@+id/signpass"
+        app:layout_constraintVertical_bias="0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

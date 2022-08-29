@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.22708333333333333" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/all_quests_background.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/answer.xml" value="0.1175" />
+        <entry key="app/src/main/res/drawable/answer_react_wind.xml" value="0.2125" />
+        <entry key="app/src/main/res/drawable/ava_wind.xml" value="0.2125" />
+        <entry key="app/src/main/res/drawable/back_but.xml" value="0.743095458984375" />
+        <entry key="app/src/main/res/drawable/button_log.xml" value="0.17430555555555555" />
+        <entry key="app/src/main/res/drawable/choose_item_test.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/choose_test_trans.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/edtxt_log.xml" value="0.17430555555555555" />
+        <entry key="app/src/main/res/drawable/ellipsel.xml" value="0.17847222222222223" />
+        <entry key="app/src/main/res/drawable/ellipser.xml" value="0.17847222222222223" />
+        <entry key="app/src/main/res/drawable/ic_baseline_emoji_events_24.xml" value="0.1595" />
+        <entry key="app/src/main/res/drawable/ic_building_house_landmark_svgrepo_com.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/login_wind.xml" value="0.17430555555555555" />
+        <entry key="app/src/main/res/drawable/menu_general.xml" value="0.189" />
+        <entry key="app/src/main/res/drawable/rewdesc.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shad.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/shadow_quests.xml" value="0.4409453125" />
+        <entry key="app/src/main/res/drawable/shadowbutton.xml" value="0.19" />
+        <entry key="app/src/main/res/drawable/test_item.xml" value="0.213" />
+        <entry key="app/src/main/res/drawable/user_stat.xml" value="0.153" />
+        <entry key="app/src/main/res/font/font.xml" value="0.11756756756756757" />
+        <entry key="app/src/main/res/layout/auth_code.xml" value="0.23962565214277498" />
+        <entry key="app/src/main/res/layout/avatar.xml" value="0.1021652221679687" />
+        <entry key="app/src/main/res/layout/category_item.xml" value="0.27586206896551724" />
+        <entry key="app/src/main/res/layout/choice_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/choose_img.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/forget_lay.xml" value="0.18575286865234378" />
+        <entry key="app/src/main/res/layout/forget_tab.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/general.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/general_lay.xml" value="0.13900273224043716" />
+        <entry key="app/src/main/res/layout/insert_text.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/intro_lay.xml" value="0.1351470947265625" />
+        <entry key="app/src/main/res/layout/intro_pages.xml" value="0.2508896797153025" />
+        <entry key="app/src/main/res/layout/login_lay.xml" value="0.179156494140625" />
+        <entry key="app/src/main/res/layout/menu.xml" value="0.19015045166015626" />
+        <entry key="app/src/main/res/layout/open_lay.xml" value="0.14916312477805393" />
+        <entry key="app/src/main/res/layout/quest_end.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/quest_item.xml" value="0.2914691943127962" />
+        <entry key="app/src/main/res/layout/quest_start.xml" value="0.1203585147247119" />
+        <entry key="app/src/main/res/layout/question_lay.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/quests_page.xml" value="0.17827868852459017" />
+        <entry key="app/src/main/res/layout/reward_item.xml" value="0.2328767123287671" />
+        <entry key="app/src/main/res/layout/rewards_page.xml" value="0.17827868852459017" />
+        <entry key="app/src/main/res/layout/signin_tab.xml" value="0.17567567567567569" />
+        <entry key="app/src/main/res/layout/signup_tab.xml" value="0.20554199218750002" />
+        <entry key="app/src/main/res/layout/success_lay.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/test.xml" value="0.1307830810546875" />
+        <entry key="app/src/main/res/layout/test_item.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/text.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/text_item.xml" value="0.1796448087431694" />
+        <entry key="app/src/main/res/layout/user_page.xml" value="0.17827868852459017" />
+        <entry key="app/src/main/res/layout/user_profile.xml" value="0.1" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/KQ_Logo.xml" value="0.2125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/all_quests.xml" value="0.1255" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/kq_logo_prewiw.xml" value="0.2125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2429046630859375" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">KidQuest</string>
+    <string name="welcome_txt">Добро пожаловать!</string>
+
+    //Headings
+    <string name="heading_one">Привет!</string>
+    <string name="heading_two">Дружба</string>
+    <string name="heading_three">Большой выбор</string>
+    <string name="heading_fourth">Развитие</string>
+
+    //Description
+    <string name="desc_one">В этом приложении ты легко найдёшь, чем занять свободное время!</string>
+    <string name="desc_two">Здесь ты сможешь проходить квесты вместе с друзьями!</string>
+    <string name="desc_three">Проходи любой квест, что тебе понравится. Здесь их много!</string>
+    <string name="desc_fourth">Узнавай вместе с нами ПДД, основы экологии и другое!</string>
+
+    //Login
+    <string name="signin">Вход</string>
+    <string name="signup">Регистрация</string>
+    //pointers
+    <string name="next">ᗒ</string>
+    <string name="back">ᗕ </string>
+
+    //pref
+    <string name="preferences">preferences</string>
+    <string name="intro">true</string>
+    <string name="token">null_token</string>
+    <string name="avatar">ava0</string>
+
+
+</resources>
